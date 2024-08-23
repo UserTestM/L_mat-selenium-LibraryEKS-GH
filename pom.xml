@@ -127,7 +127,8 @@
   <distributionManagement>
     <repository>
       <id>nexus</id>
-      <url>https://mat.qualitat.solucions.gencat.cat/nexus/repository/maven-releases/</url>
+      <!--<url>https://mat.qualitat.solucions.gencat.cat/nexus/repository/maven-releases/</url>-->
+      <url>http://localhost:8081/repository/maven-releases/</url>
     </repository>
   </distributionManagement>
 </project>
