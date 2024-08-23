@@ -1,0 +1,59 @@
+#+AUTHOR: DevSecOps CTTI
+
+# Logo & Title
+#+begin_html
+<h1 align="center">
+<img src="assets/logo.png" alt="mat-selenium Logo">
+<br/>
+<code>mat-selenium</code>
+</h1>
+#+end_html
+
+# Subtitle
+#+begin_html
+<h4 align="center">
+MAT's functional testing library
+</h4>
+#+end_html
+
+(...)
+
+* Table of Contents :toc:
+- [[#usage][Usage]]
+  - [[#local-build][Local build]]
+    - [[#requirements][Requirements]]
+    - [[#install][Install]]
+  - [[#official-repo][Official repo]]
+
+* Usage
+
+(...)
+
+#+begin_src xml
+<dependency>
+  <groupId>cat.gencat.mat</groupId>
+  <artifactId>mat-selenium</artifactId>
+  <version>...</version>
+</dependency>
+#+end_src
+
+** Local build
+
+*** Requirements
+
+(...)
+
+- OpenJDK
+- Maven
+
+*** Install
+
+(...)
+
+#+begin_src sh
+mvn clean install
+#+end_src
+
+** Official repo
+
+(...)
