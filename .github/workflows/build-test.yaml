@@ -17,5 +17,5 @@ jobs:
     - name: Build and deploy
       run: mvn clean deploy
       env:
-        MVN_USERNAME: ${{ secrets.NEXUS_USERNAME }}
-        MVN_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
+        MVN_NEXUS_USERNAME: ${{ secrets.NEXUS_USERNAME }}
+        MVN_NEXUS_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
